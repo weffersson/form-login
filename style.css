@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40300%3B400&family=Roboto%3Awght%40700&family=Rubik%3Aital%2Cwght%400%2C400%3B1%2C300%3B1%2C400&display=swap%27%29%3B);
 
-/*--CONFIGURAÇÃO DA PAGINA COM TODOS OS ELEMENTOS.(*)aplica estilos a elementos de qualquer tipo--*/
+/*--CONFIGURAÇÃO DA PAGINA COM TODOS OS ELEMENTOS.(*)--*/
 *{
-    margin: 0; /* define a área de margem nos quatro lados do elemento. = 0 significa que você não quer margem alguma.*/
-    padding: 0; /*é responsável por definir uma distância interna entre um elemento e sua borda.*/
+    margin: 0;
+    padding: 0; 
     box-sizing: border-box;/*faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura.*/
 }
 
@@ -13,17 +13,17 @@ html {
 }
 
 body, html {
-    height: 100vh;/*Altura*/
-    width: 100vw;/*Largura*/
+    height: 100vh;
+    width: 100vw;
     background-image: url("https://i.pinimg.com/originals/de/10/7a/de107aafcaf3d5f88f57598125a68c9c.jpg");
-    display: flex;/*flex container, a partir daí podemos manipular todos os elementos filhos desse flex container com propriedades novas.*/
-    justify-content: center;/* é empregada para alinhar os elementos ao longo do eixo principal, cuja direção ( row ou column ) é definida a partir da propriedade flex-direction*/
-    align-items: center; /*controla o alinhamento de todos os itens no eixo transversal*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 /*---------------------------------------------------*/
 
-/*----CONFIGURAÇÕES DE CONTEUDO------*/
+/*----CONFIGURAÇÕES DE CONTEÚDO------*/
 
 .content {
     display: flex;
