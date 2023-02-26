@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://www.larrabeecenter.com/wp-content/uploads/2021/07/wl-logo.png">
+    <title>Form-Login</title>
+    <script>
+       
+    </script>
+</head>
+<body>
+   
+<div class="content">
+    <!--cabeçalho” também é conhecida como Heading tag, ou “intertítulos”. O principal objetivo é definir tópicos dentro do texto, mas seus benefícios vão além da formatação. -->
+      
+        <header>
+            <img style="width: 80px;" src="http://24.media.tumblr.com/50a643bffd174994ef1d8589a9c9b319/tumblr_mz0l66dvjd1qbaj5no1_400.gif" alt="logo">
+        <!--<span> é um conteiner generico em linha para conteúdo fraseado, que não representa nada por natureza. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id ), ou para compartilhar valores de atributos como lang-->
+            <!--<span class="spane" style="font-size: 30px; margin-right: 35px;">Weffersson lima</span>-->
+            <img style="width: 190px; height: 90px;" src="https://media0.giphy.com/media/3Fie42HOj3uwIX3YNv/giphy.gif?cid=6c09b952rvrt4tutaxoh75h1yu765lemzfkt7zg67qgrn2pn&rid=giphy.gif&ct=s" alt="">
+            <img style="width: 80px; margin-top: 6px;" src="https://media.tenor.com/JbX00eHfrE4AAAAi/athena-asamiya-kof2002.gif" alt="logo">
+        </header>
+        <!--<main> define o conteúdo principal dentro do <body> em seu documento ou aplicação.-->
+        <main>
+        <!--<form> cria um bloco para que tags de formulário e seus dados sejam agrupados e encaminhados para outro documento, em conjunto.-->
+            <form>
+                <div class="input-field">
+        <!--<input> cria diferentes campos de entrada de dados no documento HTML. No geral, <input> deve ser usada dentro da tag <form> , para que possa passar os dados coletados para algum outro documento através dos processos nativos de <form>-->
+                    <input style="color: rgba(0, 0, 0, 0.926);" id="email" type="email" placeholder="Email" required>
+        <!--<label> é um elemento HTML que representa uma legenda para melhorar a acessibilidade de um item de interface do usuário-->
+                    <label for="email">
+                        <img src="https://www.fightersgeneration.com/np8/gifs/iori-classic-kof13stance-2.gif" alt="Email">
+                    </label>
+                </div><!--input-field-->
+                <div class="input-field">
+                    <input type="password" placeholder="Senha" id="password" required>
+                    <label for="password">
+                        <img src="https://www.fightersgeneration.com/nf8/char/kyo-kusanagi-kof13-stance-99.gif" alt="Senha">
+                    </label>
+                </div><!--input-field-->
+                <div class="checkbox">
+                    <input type="checkbox" id="remind-pass">
+                    <label for="remind-pass">Lembrar senha</label>  
+                </div><!--checkbox-->
+                <button onclick="alert('VOCÊ NÃO FAZ PARTE ')">Login</button>
+                <span id="conteudo"></span>
+            </form>
+        </main>
+
+        <footer>
+            <a href="#">Nova  senha</a>
+            <a href="#">Criar conta</a>
+        </footer>
+        <br><br>             
+</div><!--content-->
+
+</body>
+</html>
